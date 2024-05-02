@@ -1,0 +1,80 @@
+ion-icon {
+    color: grey;    
+}
+
+ul ion-icon {
+    color: grey;
+}
+
+span {
+    color: grey;
+}
+
+
+.ratings ion-icon {
+    color: #ffaa47;
+  }
+
+span.strike {
+    text-decoration: line-through;
+}
+
+
+.list-group-item img {
+    width: 30px;
+}
+
+footer {
+    color: grey;
+    border-top: 1px solid grey;
+}
+
+.nav-link {
+    color: grey;
+    padding-right: 0px;
+}
+
+#jumbotron {
+    background-color: #7550fe;
+}
+
+#notificationButton {
+    background-color: #efefef;
+    border: 0px;
+}
+
+.bg-danger {
+    background-color: #7550fe !important;
+}
+
+#profileButton img {
+    width: 40px;
+    height: auto;
+    object-fit: cover;
+}
+
+
+.green {
+    background-color: green;
+}
+
+.beige {
+    background-color: #ffeeda;
+}
+
+.w-40 {
+    width: 40px;
+    height: 40px;
+}
+
+#advantageSection p {
+    margin-bottom: 0;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+}
