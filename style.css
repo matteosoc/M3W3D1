@@ -74,7 +74,37 @@ footer {
 .carousel-control-prev-icon, .carousel-control-next-icon {
     height: 50px;
     width: 50px;
-    background-color: white;
+    background-color: black;
     background-size: 100%, 100%;
     border-radius: 50%;
+}
+
+#profileButton > ul > li:nth-child(1) > button > div > p {
+    margin-bottom: 0;
+}
+
+#profileButton > ul > li:nth-child(1) > button > img {
+    margin-right: 0.5rem;
+}
+
+#profileButton > ul > li > button > ion-icon {
+    margin-right: 0.5rem;
+}
+
+#jumbotron > div > div > div:nth-child(2) > img {
+    width: 100%;
+}
+
+.carousel > div > div.carousel-item.active > div > div > div {
+    transition: transform 0.3s ease-in-out;
+}
+
+.carousel > div > div.carousel-item.active > div > div > div:hover {
+    box-shadow: 1px 1px 6px 1px grey;
+    transform: scale(1.2);
+    z-index: 20;
+}
+
+.carousel-inner {
+    overflow: visible !important;
 }
